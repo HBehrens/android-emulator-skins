@@ -1,0 +1,22 @@
+These Android Emulator Skins replace the bleaky default look with high quality graphics of actual devices and feature a reflection overlay, too.
+
+The repostory contains these skins
+
+ * NEXUS-S
+ * NEXUS-ONE
+ * NEXUS-ONE-SILVER (light version of the original)
+ * NEXUS-ONE-BLACK (dark version of the original)
+
+Copy the desired skins to the appropriate platform's skin directory below your Android SDK, e.g.
+
+ <pathToAndroidSDK>/platforms/android-7/skins/NEXUS-S
+
+All skins had been designed with respect to the original display resolution of the devices. This is great for taking screenshots or producing a screencast but barely matches a laptop's screen. When running on the emulator consider a scaling option, e.g.
+
+ -scale 0.5
+
+Also, every skin comes with an overlay expands the reflection of the body above your screen content. Use the onion feature of the emulator to enable this, e.g.
+
+ -onion-alpha 100 -onion <absolutePathToSkin>/overlay.png
+
+These skins had been built by Heiko Behrens (http://HeikoBehrens.net) based on graphics by Alexander Gillis (http://zandog.deviantart.com).
