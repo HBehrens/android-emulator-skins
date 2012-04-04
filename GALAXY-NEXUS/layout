@@ -41,7 +41,7 @@ parts {
 			back {
 				image back_land.png
 				x 1627
-				y 368
+				y 813
 			}
 			home {
 				image home_land.png
@@ -51,7 +51,7 @@ parts {
 			soft-left {
 				image menu_land.png
 				x 1627
-				y 813
+				y 368
 			}
         }
     }
